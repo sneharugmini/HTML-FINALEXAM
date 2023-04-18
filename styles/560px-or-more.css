@@ -1,0 +1,51 @@
+@media screen and (max-width: 560px) {
+    header h2 {
+        display: none;
+    }
+
+    nav a {
+        padding: 1em 0;
+    }
+
+    figure {
+        float: none;
+        text-align: center;
+
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+        text-align: center;
+       
+    }
+
+    main {
+        width: fit-content;
+        padding-left: 2em;
+    }
+
+    aside {
+        width: fit-content;
+        padding-right: 1.5em;
+        font-size: 0.8em;
+        padding-top: 2em;
+    }
+
+    #main-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #figure-one {
+        width: fit-content;
+    }
+
+    #figure-two {
+        padding-right: 2em;
+        padding-top: 2em;
+    }
+}
